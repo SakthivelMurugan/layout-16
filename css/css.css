@@ -2,10 +2,8 @@
 {
 	display:flex;
 	flex-direction:column;
-	margin:250px;
 	margin-top:10px;
 	margin-bottom:10px;
-	border:2px solid black;
 }
 .one .header
 {
@@ -23,8 +21,8 @@
 }
 .one .header .start .b
 {
-	height:20px;
-	width:40px;
+	height:30px;
+	width:80px;
 	background-color:black;
 	margin:5px;
 }
@@ -37,8 +35,8 @@
 }
 .one .header .end .b
 {
-	height:20px;
-	width:40px;
+	height:30px;
+	width:80px;
 	background-color:black;
 	margin:5px;
 }
@@ -54,8 +52,8 @@
 }
 .one .split1 .split11 .photo
 {
-	height:150px;
-	width:100px;
+	height:200px;
+	width:200px;
 	background-color:gray;
 	margin:10px;
 }
@@ -63,26 +61,27 @@
 {
 	display:flex;
 	flex-direction:column;
-
+	align-items:center;
+	justify-content:center;
 }
 .one .split1 .split12 .dark
 {
-	height:30px;
-	width:100px;
+	height:40px;
+	width:120px;
 	background-color:black;
 	margin:10px;
 }
 .one .split1 .split12 .content
 {
-	height:40px;
-	width:100px;
+	height:50px;
+	width:120px;
 	background-color:gray;
 	margin:10px;
 }
 .one .split1 .split12 .button
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:120px;
 	background-color:gray;
 	margin:10px;
 }
@@ -90,7 +89,7 @@
 {
 	display:flex;
 	flex-direction:column;
-	border-top:1px solid gray;
+	background-color:pink;
 }
 .one .split2 .split21 
 {
@@ -99,8 +98,8 @@
 }
 .one .split2 .split21 .dark
 {
-	height:20px;
-	width:100px;
+	height:30px;
+	width:120px;
 	background-color:blue;
 	margin-left:200px;
 	margin-top:10px;	
@@ -113,8 +112,8 @@
 }
 .one .split2 .split22 .box
 {
-	height:100px;
-	width:100px;
+	height:200px;
+	width:200px;
 	background-color:gray;
 	margin:10px;
 }
@@ -126,8 +125,9 @@
 }
 .one .footer .text
 {
-	height:20px;
-	width:70px;
+	height:30px;
+	width:80px;
 	background-color:gray;
 	margin:10px;
 }
+
